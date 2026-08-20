@@ -16,7 +16,7 @@ if ($_POST) {
     
     if (mysqli_query($conn, $sql)) {
         $_SESSION['last_id'] = mysqli_insert_id($conn);
-        header("Location: index.html");
+        header("Location: index.php");
         exit();
     } else {
         $error = "Error: " . mysqli_error($conn);
@@ -72,7 +72,7 @@ if ($_POST) {
                 
                 <div class="form-buttons">
                     <button type="submit" class="btn btn-primary">💾 Simpan Data</button>
-                    <a href="index.html" class="btn btn-secondary">📋 Lihat Data</a>
+                    <a href="index.php" class="btn btn-secondary">📋 Lihat Data</a>
                 </div>
             </form>
         </div>
