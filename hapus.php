@@ -20,7 +20,7 @@ $sql_insert_histori = "INSERT INTO histori SELECT * FROM transaksi WHERE id = $i
 $sql_delete = "DELETE FROM transaksi WHERE id = $id";
 
 if (mysqli_query($conn, $sql_insert_histori) && mysqli_query($conn, $sql_delete)) {
-    header("Location: index.php?message=Data berhasil dipindahkan ke histori");
+    header("Location: index.html?message=Data berhasil dipindahkan ke histori");
     exit();
 } else {
     echo "Error: " . mysqli_error($conn);
