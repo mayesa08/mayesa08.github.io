@@ -38,7 +38,7 @@ $total_pendapatan = $total_data['total'] ? $total_data['total'] : 0;
             <div class="card-header">
                 <h2>📈 Riwayat Transaksi</h2>
                 <div class="header-actions">
-                    <a href="index.html" class="btn btn-primary">📋 Data Aktif</a>
+                    <a href="index.php" class="btn btn-primary">📋 Data Aktif</a>
                 </div>
             </div>
 
