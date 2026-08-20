@@ -16,7 +16,7 @@ if ($_POST) {
     
     if (mysqli_query($conn, $sql)) {
         $_SESSION['last_id'] = mysqli_insert_id($conn);
-        header("Location: index.php");
+        header("Location: index.html");
         exit();
     } else {
         $error = "Error: " . mysqli_error($conn);
