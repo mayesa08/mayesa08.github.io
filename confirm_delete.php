@@ -51,7 +51,7 @@ $data = mysqli_fetch_assoc($result);
                 <a href="hapus.php?id=<?php echo $id; ?>&confirm=1" class="btn btn-success">
                     ✅ Ya, Simpan
                 </a>
-                <a href="index.php" class="btn btn-secondary">
+                <a href="index.html" class="btn btn-secondary">
                     ❌ Batal
                 </a>
             </div>
