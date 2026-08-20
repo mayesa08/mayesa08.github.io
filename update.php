@@ -139,7 +139,7 @@ $estimasi_biaya = $estimasi_jam * $data['biaya'];
                     <button type="submit" class="btn btn-success" name="ok">
                         ✅ Proses Keluar & Bayar
                     </button>
-                    <a href="index.html" class="btn btn-secondary">Kembali</a>
+                    <a href="index.php" class="btn btn-secondary">Kembali</a>
                 </div>
             </form>
         </div>
